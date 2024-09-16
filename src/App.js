@@ -10,7 +10,7 @@ const App = () => {
     // Fetch top stories from FastAPI backend
     const fetchStories = async () => {
       try {
-        const response = await fetch("http://localhost:8000/top-stories");
+        const response = await fetch("https://hacker-news-topstories-backend.onrender.com/top-stories");
         if (!response.ok) {
           throw new Error("Failed to fetch stories");
         }
