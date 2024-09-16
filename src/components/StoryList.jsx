@@ -1,6 +1,6 @@
-import React from "react";
 
-function StoryList({ stories }) {
+
+const StoryList = ({stories}) => {
   return (
     <ul>
       {stories.map((story, index) => (

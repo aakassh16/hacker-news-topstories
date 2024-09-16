@@ -7,7 +7,6 @@ const App = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Fetch top stories from FastAPI backend
     const fetchStories = async () => {
       try {
         const response = await fetch("https://hacker-news-topstories-backend.onrender.com/top-stories");
