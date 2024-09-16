@@ -38,9 +38,9 @@ const App = () => {
   return (
     <div>
       <div className="flex justify-center mt-4">
-        <h1 className="font-bold text-3xl sm:text-lg">Top 10 Hacker News Stories</h1>
+        <h1 className="font-bold text-3xl">Top 10 Hacker News Stories</h1>
       </div>
-      <div className="flex justify-center mt-6">
+      <div className="flex justify-center mt-6 mb-4">
         <StoryList stories={stories} />
       </div>
     </div>
